@@ -46,10 +46,10 @@ main {
     align-items: center;
     height: 80vh;
     background-image: url("../img/background3.gif");
-    background-size: cover;
+    background-size: contain;
     background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-repeat: repeat-x;
+    background-attachment: scroll;
 }
 
 .search-container {
