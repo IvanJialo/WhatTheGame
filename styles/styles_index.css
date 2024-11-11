@@ -40,6 +40,43 @@ nav {
     font-size: 18px;
 }
 
+/* Auth Buttons */
+.auth-buttons {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.auth-buttons .login-btn,
+.auth-buttons .signup-btn {
+    font-family: 'Noto Serif Old Uyghur', serif;
+    font-weight: bold;
+    padding: 8px 16px;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.auth-buttons .login-btn {
+    background-color: #DCD0FF;
+    color: #000000;
+}
+
+.auth-buttons .signup-btn {
+    background-color: #FFFFFF;
+    color: #000000;
+    border: 2px solid #DCD0FF;
+}
+
+.auth-buttons .login-btn:hover,
+.auth-buttons .signup-btn:hover {
+    opacity: 0.9;
+}
+
+
 main {
     display: flex;
     justify-content: center;
@@ -50,6 +87,20 @@ main {
     background-position: center;
     background-repeat: repeat-x;
     background-attachment: scroll;
+}
+
+@media (max-width: 1024px) {
+    main {
+        background-position: center top; 
+    }
+}
+
+
+@media (max-width: 768px) {
+    main {
+        background-size: contain; 
+        background-position: top; 
+    }
 }
 
 .search-container {
