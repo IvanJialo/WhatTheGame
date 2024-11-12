@@ -1,0 +1,180 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Noto Serif Old Uyghur', serif;
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #000000;
+    padding: 20px 0;
+    position: relative;
+}
+
+.logo {
+    width: 150px;
+    margin-bottom: 10px;
+}
+
+.auth-buttons {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.auth-buttons .login-btn,
+.auth-buttons .signup-btn {
+    font-family: 'Noto Serif Old Uyghur', serif;
+    font-weight: bold;
+    padding: 8px 16px;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.auth-buttons .login-btn {
+    background-color: #DCD0FF;
+    color: #000000;
+}
+
+.auth-buttons .signup-btn {
+    background-color: #FFFFFF;
+    color: #000000;
+    border: 2px solid #DCD0FF;
+}
+
+.auth-buttons .login-btn:hover,
+.auth-buttons .signup-btn:hover {
+    opacity: 0.9;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background-image: url("../img/background_categories1.gif");
+    background-size: contain;
+    background-position: center;
+    background-repeat: repeat-x;
+    background-attachment: scroll;
+}
+
+main {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background-image: url("../img/background_categories1.gif");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    overflow: hidden;
+}
+
+.main-overlay {
+    position: absolute;
+    width: 90%; /* Ajusta el ancho para el efecto deseado */
+    height: 90%; /* Ajusta la altura para cubrir las secciones de categorías */
+    background-color: rgba(0, 0, 0, 0.5); /* Caja negra semi-transparente */
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 20px; /* Espacio interno para las secciones */
+    overflow-y: auto; /* Permite desplazamiento si el contenido es largo */
+    z-index: 1;
+}
+
+/* Estilos para las secciones dentro de la caja */
+.category-section {
+    margin-bottom: 20px;
+}
+
+.category-section h2 {
+    color: #DCD0FF; /* Color lavanda claro para los títulos */
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.games-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+@media (max-width: 1024px) {
+    main {
+        background-position: center top; 
+    }
+}
+
+@media (max-width: 768px) {
+    main {
+        background-size: contain; 
+        background-position: top; 
+    }
+}
+
+nav {
+    display: flex;
+}
+
+.nav-menu {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.nav-menu li a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 18px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 20px;
+}
+
+.footer-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.footer-logo img {
+    width: 100px;
+}
+
+.footer-social ul,
+.footer-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-social ul li a,
+.footer-info ul li a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.footer-social h4, 
+.footer-info h4 {
+    margin-bottom: 10px;
+}
