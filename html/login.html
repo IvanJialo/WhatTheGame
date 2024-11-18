@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In</title>
+    <link rel="stylesheet" href="../styles/styles_login.css">
+    <script defer src="../script/script_login.js"></script>
+</head>
+<body>
+    <header>
+        <img src="../img/logo.png" alt="WhaTheGame Logo" class="logo-header" id="home-logo">
+    </header>
+    
+
+    <main>
+        <div class="login-container">
+            <h1>Log In</h1>
+            <form action="/login" method="POST" class="login-form">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" placeholder="Enter username..." required>
+
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="Enter password..." required>
+
+                <button type="submit" class="btn login-btn">Log In</button>
+                <p class="signup-prompt">
+                    Don't have an account? <a href="signup.html">Sign Up</a>
+                </p>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-logo">
+            <img src="../img/logo.png" alt="WhaTheGame Logo">
+        </div>
+        <div class="footer-container">
+            <div class="footer-social">
+                <h4>Social</h4>
+                <ul>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Instagram</a></li>
+                </ul>
+            </div>
+            <div class="footer-info">
+                <h4>Info</h4>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <p>&copy; 2024 WhaTheGame</p>
+        </div>
+    </footer>
+</body>
+</html>

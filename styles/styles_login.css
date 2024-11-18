@@ -1,0 +1,140 @@
+/* Fondo general de la página */
+body {
+    font-family: 'Noto Serif Old Uyghur', serif;
+    background-image: url("../img/space_background.gif");
+    background-size: contain;
+    background-position: center;
+    background-attachment: fixed;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header simplificado con logo */
+header {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: transparent; /* Sin fondo */
+}
+
+.logo-header {
+    width: 120px;
+    cursor: pointer;
+}
+
+/* Contenedor principal del login */
+.login-container {
+    display: flex;
+    flex-direction: column; /* Asegura que los elementos estén en columna */
+    align-items: center; /* Centra horizontalmente los elementos */
+    justify-content: center; /* Centra verticalmente los elementos */
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.9); /* Fondo negro semi-transparente */
+    border: 2px solid #DCD0FF; /* Borde lavanda claro */
+    border-radius: 15px; /* Bordes redondeados */
+    padding: 30px;
+    color: #FFFFFF;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5); /* Sombra */
+    z-index: 2;
+}
+
+/* Encabezado del login */
+.login-container h1 {
+    margin-bottom: 20px; /* Espaciado inferior */
+    color: #DCD0FF;
+    text-align: center; /* Centra el texto */
+}
+
+/* Inputs del formulario */
+.login-form {
+    display: flex;
+    flex-direction: column; /* Alinea inputs en columna */
+    width: 100%; /* Asegura que ocupen todo el ancho del contenedor */
+    gap: 15px; /* Espacio entre los elementos */
+}
+
+.login-form input {
+    padding: 10px;
+    border: 2px solid #DCD0FF;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+/* Botón de login */
+.login-btn {
+    font-family: 'Noto Serif Old Uyghur', serif;
+    font-weight: bold;
+    padding: 10px;
+    font-size: 18px;
+    background-color: #DCD0FF;
+    border: none;
+    border-radius: 5px;
+    color: #000000;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.login-btn:hover {
+    background-color: #b5a1e3;
+}
+
+/* Mensaje de registro */
+.signup-prompt {
+    margin-top: 20px; /* Espaciado superior */
+    color: #DCD0FF;
+    text-align: center; /* Centra el texto */
+}
+
+.signup-prompt a {
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+
+/* Ajusta el tamaño y posición general */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #FFFFFF;
+    padding: 20px;
+}
+
+.footer-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.footer-logo img {
+    width: 100px;
+}
+
+.footer-social ul,
+.footer-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-social ul li a,
+.footer-info ul li a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.footer-social h4, 
+.footer-info h4 {
+    margin-bottom: 10px;
+}
