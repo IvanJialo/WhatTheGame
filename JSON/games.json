@@ -1,0 +1,552 @@
+{
+    "categories": [
+      {
+        "category": "Racing",
+        "games": [
+          {
+            "name": "Forza Horizon 4",
+            "developer": "Playground Games",
+            "publisher": "Xbox Game Studios",
+            "description": "Dynamic seasons change everything in the world’s greatest automotive festival. Go it alone or team up to explore beautiful and historic Britain.",
+            "tutorial_links": ["https://www.youtube.com/watch?v=VmQNo8xtcAg"],
+            "trailer_preview": "https://www.youtube.com/watch?v=VmQNo8xtcAg",
+            "prices": {
+              "Steam": "$59.99",
+              "Microsoft Store": "$59.99"
+            },
+            "cover_image": "https://example.com/forza4.jpg",
+            "average_playtime": "30 hours",
+            "platforms": ["PC", "Xbox One"],
+            "release_date": "2018-10-02",
+            "reviews": {
+              "IGN": "9.6/10",
+              "Vandal": "9.2/10",
+              "Metacritic": "92/100"
+            }
+          },
+          {
+            "name": "Forza Horizon 5",
+            "developer": "Playground Games",
+            "publisher": "Xbox Game Studios",
+            "description": "Explore the vibrant and ever-evolving landscapes of Mexico with limitless, fun driving action in hundreds of the world’s greatest cars.",
+            "tutorial_links": ["https://www.youtube.com/watch?v=F8c5R3-wlc8"],
+            "trailer_preview": "https://www.youtube.com/watch?v=F8c5R3-wlc8",
+            "prices": {
+              "Steam": "$59.99",
+              "Microsoft Store": "$59.99"
+            },
+            "cover_image": "https://example.com/forza5.jpg",
+            "average_playtime": "35 hours",
+            "platforms": ["PC", "Xbox Series X|S"],
+            "release_date": "2021-11-09",
+            "reviews": {
+              "IGN": "9.0/10",
+              "Vandal": "9.3/10",
+              "Metacritic": "91/100"
+            }
+          },
+          {
+            "name": "Mario Kart 8 Deluxe",
+            "developer": "Nintendo",
+            "publisher": "Nintendo",
+            "description": "Race your friends or battle them in a revamped Battle mode on new and returning battle courses.",
+            "tutorial_links": ["https://www.youtube.com/watch?v=tKlRN2YpxRE"],
+            "trailer_preview": "https://www.youtube.com/watch?v=tKlRN2YpxRE",
+            "prices": {
+              "Nintendo eShop": "$59.99"
+            },
+            "cover_image": "https://example.com/mariokart8.jpg",
+            "average_playtime": "60 hours",
+            "platforms": ["Nintendo Switch"],
+            "release_date": "2017-04-28",
+            "reviews": {
+              "IGN": "9.3/10",
+              "Vandal": "9.5/10",
+              "Metacritic": "92/100"
+            }
+          },
+          {
+            "name": "Need for Speed: Most Wanted",
+            "developer": "Criterion Games",
+            "publisher": "Electronic Arts",
+            "description": "Outrun the cops, outdrive your friends, and outsmart your rivals in the most dangerous street racing game yet.",
+            "tutorial_links": ["https://www.youtube.com/watch?v=fbk7xQdf5bE"],
+            "trailer_preview": "https://www.youtube.com/watch?v=fbk7xQdf5bE",
+            "prices": {
+              "Steam": "$19.99",
+              "Origin": "$19.99"
+            },
+            "cover_image": "https://example.com/nfsmw.jpg",
+            "average_playtime": "20 hours",
+            "platforms": ["PC", "PS3", "Xbox 360"],
+            "release_date": "2012-10-30",
+            "reviews": {
+              "IGN": "8.5/10",
+              "Vandal": "8.0/10",
+              "Metacritic": "84/100"
+            }
+          },
+          {
+            "name": "Gran Turismo 7",
+            "developer": "Polyphony Digital",
+            "publisher": "Sony Interactive Entertainment",
+            "description": "From classic cars to the latest supercars, experience the thrill of racing in a variety of stunning locations.",
+            "tutorial_links": ["https://www.youtube.com/watch?v=FsZlCrMx3DQ"],
+            "trailer_preview": "https://www.youtube.com/watch?v=FsZlCrMx3DQ",
+            "prices": {
+              "PlayStation Store": "$69.99"
+            },
+            "cover_image": "https://example.com/granturismo7.jpg",
+            "average_playtime": "40 hours",
+            "platforms": ["PS4", "PS5"],
+            "release_date": "2022-03-04",
+            "reviews": {
+              "IGN": "8.7/10",
+              "Vandal": "8.9/10",
+              "Metacritic": "87/100"
+            }
+          }
+        ]
+      },
+      {
+        "category": "Sports",
+        "games": [
+          {
+            "name": "Wii Sports",
+            "developer": "Nintendo",
+            "publisher": "Nintendo",
+            "description": "Enjoy a variety of sports games that use intuitive motion controls to mimic real sports like tennis, bowling, and baseball.",
+            "tutorial_links": ["https://www.youtube.com/watch?v=sGnugEHoL4o"],
+            "trailer_preview": "https://www.youtube.com/watch?v=sGnugEHoL4o",
+            "prices": {
+              "Amazon": "$29.99",
+              "eBay": "$19.99"
+            },
+            "cover_image": "https://example.com/wiisports.jpg",
+            "average_playtime": "50 hours",
+            "platforms": ["Wii"],
+            "release_date": "2006-11-19",
+            "reviews": {
+              "IGN": "9.0/10",
+              "Vandal": "9.0/10",
+              "Metacritic": "76/100"
+            }
+          },
+          {
+            "name": "UFC 4",
+            "developer": "EA Vancouver",
+            "publisher": "Electronic Arts",
+            "description": "Shape your fighter and your legacy in the dynamic UFC universe. Train, fight, and rise to the top.",
+            "tutorial_links": ["https://www.youtube.com/watch?v=DWZPAFme1Jg"],
+            "trailer_preview": "https://www.youtube.com/watch?v=DWZPAFme1Jg",
+            "prices": {
+              "PlayStation Store": "$59.99",
+              "Xbox Store": "$59.99"
+            },
+            "cover_image": "https://example.com/ufc4.jpg",
+            "average_playtime": "25 hours",
+            "platforms": ["PS4", "PS5", "Xbox One", "Xbox Series X|S"],
+            "release_date": "2020-08-14",
+            "reviews": {
+              "IGN": "8.2/10",
+              "Vandal": "7.9/10",
+              "Metacritic": "82/100"
+            }
+          },
+          {
+            "name": "FIFA 23",
+            "developer": "EA Sports",
+            "publisher": "Electronic Arts",
+            "description": "The ultimate football simulation experience with updated teams, hypermotion gameplay, and more realistic animations.",
+            "tutorial_links": ["https://www.youtube.com/watch?v=H6Xlf7a1wtk"],
+            "trailer_preview": "https://www.youtube.com/watch?v=H6Xlf7a1wtk",
+            "prices": {
+              "Steam": "$69.99",
+              "Origin": "$69.99"
+            },
+            "cover_image": "https://example.com/fifa23.jpg",
+            "average_playtime": "50+ hours",
+            "platforms": ["PC", "PS4", "PS5", "Xbox One", "Xbox Series X|S"],
+            "release_date": "2022-09-30",
+            "reviews": {
+              "IGN": "8.5/10",
+              "Vandal": "8.8/10",
+              "Metacritic": "80/100"
+            }
+          },
+          {
+            "name": "NBA 2K23",
+            "developer": "Visual Concepts",
+            "publisher": "2K Sports",
+            "description": "Play as your favorite basketball legends or create your own team in the most realistic basketball simulator to date.",
+            "tutorial_links": ["https://www.youtube.com/watch?v=1YgsSy0YxJc"],
+            "trailer_preview": "https://www.youtube.com/watch?v=1YgsSy0YxJc",
+            "prices": {
+              "Steam": "$59.99",
+              "PlayStation Store": "$59.99"
+            },
+            "cover_image": "https://example.com/nba2k23.jpg",
+            "average_playtime": "40 hours",
+            "platforms": ["PC", "PS4", "PS5", "Xbox One", "Xbox Series X|S"],
+            "release_date": "2022-09-08",
+            "reviews": {
+              "IGN": "7.9/10",
+              "Vandal": "8.1/10",
+              "Metacritic": "78/100"
+            }
+          },
+          {
+            "name": "Rugby 22",
+            "developer": "Eko Software",
+            "publisher": "Nacon",
+            "description": "Play as the best rugby teams in this dynamic and challenging rugby simulator with advanced gameplay mechanics.",
+            "tutorial_links": ["https://www.youtube.com/watch?v=OcQm4SWOInI"],
+            "trailer_preview": "https://www.youtube.com/watch?v=OcQm4SWOInI",
+            "prices": {
+              "Steam": "$49.99",
+              "Amazon": "$44.99"
+            },
+            "cover_image": "https://example.com/rugby22.jpg",
+            "average_playtime": "30 hours",
+            "platforms": ["PC", "PS4", "PS5", "Xbox One", "Xbox Series X|S"],
+            "release_date": "2022-01-27",
+            "reviews": {
+              "IGN": "7.0/10",
+              "Vandal": "6.8/10",
+              "Metacritic": "68/100"
+            }
+          }
+        ]
+      },
+      {
+        "category": "Open World",
+        "games": [
+          {
+            "name": "Elden Ring",
+            "developer": "FromSoftware",
+            "publisher": "Bandai Namco Entertainment",
+            "description": "Explore a vast and treacherous world full of mythical creatures, powerful enemies, and secrets to uncover in this action RPG.",
+            "tutorial_links": ["https://www.youtube.com/watch?v=e5wwSxlzdlQ"],
+            "trailer_preview": "https://www.youtube.com/watch?v=e5wwSxlzdlQ",
+            "prices": {
+              "Steam": "$59.99",
+              "PlayStation Store": "$59.99"
+            },
+            "cover_image": "https://howlongtobeat.com/games/68151_Elden_Ring.jpg?width=250",
+            "average_playtime": "80+ hours",
+            "platforms": ["PC", "PS4", "PS5", "Xbox One", "Xbox Series X|S"],
+            "release_date": "2022-02-25",
+            "reviews": {
+              "IGN": "10/10",
+              "Vandal": "9.8/10",
+              "Metacritic": "96/100"
+            }
+          },
+          {
+            "name": "Dark Souls III",
+            "developer": "FromSoftware",
+            "publisher": "Bandai Namco Entertainment",
+            "description": "Battle through dark and gothic landscapes while facing relentless foes and uncovering the mystery of the fading embers.",
+            "tutorial_links": ["https://www.youtube.com/watch?v=GLtO4RDnPHs"],
+            "trailer_preview": "https://www.youtube.com/watch?v=GLtO4RDnPHs",
+            "prices": {
+              "Steam": "$49.99",
+              "Humble Bundle": "$39.99"
+            },
+            "cover_image": "https://example.com/darksouls3.jpg",
+            "average_playtime": "50 hours",
+            "platforms": ["PC", "PS4", "Xbox One"],
+            "release_date": "2016-04-12",
+            "reviews": {
+              "IGN": "9.5/10",
+              "Vandal": "9.4/10",
+              "Metacritic": "89/100"
+            }
+          },
+          {
+            "name": "Dark Souls II",
+            "developer": "FromSoftware",
+            "publisher": "Bandai Namco Entertainment",
+            "description": "Dive into a brutal world filled with cryptic lore and formidable enemies in the second installment of the Dark Souls series.",
+            "tutorial_links": ["https://www.youtube.com/watch?v=eBviLFMPfDg"],
+            "trailer_preview": "https://www.youtube.com/watch?v=eBviLFMPfDg",
+            "prices": {
+              "Steam": "$39.99",
+              "Humble Bundle": "$34.99"
+            },
+            "cover_image": "https://example.com/darksouls2.jpg",
+            "average_playtime": "45 hours",
+            "platforms": ["PC", "PS3", "Xbox 360"],
+            "release_date": "2014-03-11",
+            "reviews": {
+              "IGN": "9.0/10",
+              "Vandal": "8.8/10",
+              "Metacritic": "91/100"
+            }
+          },
+          {
+            "name": "Grand Theft Auto V",
+            "developer": "Rockstar North",
+            "publisher": "Rockstar Games",
+            "description": "Experience the lives of three criminals as they pursue wealth and power in the sprawling open-world city of Los Santos.",
+            "tutorial_links": ["https://www.youtube.com/watch?v=QkkoHAzjnUs"],
+            "trailer_preview": "https://www.youtube.com/watch?v=QkkoHAzjnUs",
+            "prices": {
+              "Steam": "$29.99",
+              "Epic Games Store": "$29.99"
+            },
+            "cover_image": "https://example.com/gta5.jpg",
+            "average_playtime": "35 hours (Main Story)",
+            "platforms": ["PC", "PS3", "PS4", "PS5", "Xbox 360", "Xbox One", "Xbox Series X|S"],
+            "release_date": "2013-09-17",
+            "reviews": {
+              "IGN": "10/10",
+              "Vandal": "9.9/10",
+              "Metacritic": "97/100"
+            }
+          },
+          {
+            "name": "Fallout 4",
+            "developer": "Bethesda Game Studios",
+            "publisher": "Bethesda Softworks",
+            "description": "Venture through a post-apocalyptic wasteland filled with mutants, factions, and choices that define your survival.",
+            "tutorial_links": ["https://www.youtube.com/watch?v=X5aJfebzkrM"],
+            "trailer_preview": "https://www.youtube.com/watch?v=X5aJfebzkrM",
+            "prices": {
+              "Steam": "$19.99",
+              "Bethesda Store": "$19.99"
+            },
+            "cover_image": "https://example.com/fallout4.jpg",
+            "average_playtime": "60+ hours",
+            "platforms": ["PC", "PS4", "Xbox One"],
+            "release_date": "2015-11-10",
+            "reviews": {
+              "IGN": "9.5/10",
+              "Vandal": "9.2/10",
+              "Metacritic": "87/100"
+            }
+          }
+        ]
+      },
+      {
+        "category": "Story Mode",
+        "games": [
+          {
+            "name": "It Takes Two",
+            "developer": "Hazelight Studios",
+            "publisher": "Electronic Arts",
+            "description": "A cooperative adventure where two players must work together to overcome a variety of challenges and save a broken relationship.",
+            "tutorial_links": ["https://www.youtube.com/watch?v=OhV5r2RGz6I"],
+            "trailer_preview": "https://www.youtube.com/watch?v=OhV5r2RGz6I",
+            "prices": {
+              "Steam": "$39.99",
+              "PlayStation Store": "$39.99"
+            },
+            "cover_image": "https://example.com/ittakestwo.jpg",
+            "average_playtime": "10-12 hours",
+            "platforms": ["PC", "PS4", "PS5", "Xbox One", "Xbox Series X|S"],
+            "release_date": "2021-03-26",
+            "reviews": {
+              "IGN": "9.0/10",
+              "Vandal": "9.4/10",
+              "Metacritic": "89/100"
+            }
+          },
+          {
+            "name": "God of War",
+            "developer": "Santa Monica Studio",
+            "publisher": "Sony Interactive Entertainment",
+            "description": "Embark on a journey with Kratos and his son Atreus in this action-packed adventure inspired by Norse mythology.",
+            "tutorial_links": ["https://www.youtube.com/watch?v=2yF0XZJtlRY"],
+            "trailer_preview": "https://www.youtube.com/watch?v=2yF0XZJtlRY",
+            "prices": {
+              "PlayStation Store": "$19.99",
+              "Steam": "$49.99"
+            },
+            "cover_image": "https://example.com/godofwar.jpg",
+            "average_playtime": "20-25 hours",
+            "platforms": ["PC", "PS4", "PS5"],
+            "release_date": "2018-04-20",
+            "reviews": {
+              "IGN": "10/10",
+              "Vandal": "9.8/10",
+              "Metacritic": "94/100"
+            }
+          },
+          {
+            "name": "The Witcher 3: Wild Hunt",
+            "developer": "CD Projekt Red",
+            "publisher": "CD Projekt",
+            "description": "Follow Geralt of Rivia, a monster hunter, as he searches for his missing adopted daughter in a richly detailed fantasy world.",
+            "tutorial_links": ["https://www.youtube.com/watch?v=c0i88t0Kacs"],
+            "trailer_preview": "https://www.youtube.com/watch?v=c0i88t0Kacs",
+            "prices": {
+              "Steam": "$39.99",
+              "GOG": "$29.99"
+            },
+            "cover_image": "https://example.com/witcher3.jpg",
+            "average_playtime": "50+ hours",
+            "platforms": ["PC", "PS4", "PS5", "Xbox One", "Nintendo Switch"],
+            "release_date": "2015-05-19",
+            "reviews": {
+              "IGN": "9.3/10",
+              "Vandal": "9.7/10",
+              "Metacritic": "93/100"
+            }
+          },
+          {
+            "name": "Assassin's Creed IV: Black Flag",
+            "developer": "Ubisoft Montreal",
+            "publisher": "Ubisoft",
+            "description": "Sail the high seas as Edward Kenway, a pirate and assassin, in a story of betrayal, plunder, and the fight for freedom.",
+            "tutorial_links": ["https://www.youtube.com/watch?v=ZfL4x1CWUnE"],
+            "trailer_preview": "https://www.youtube.com/watch?v=ZfL4x1CWUnE",
+            "prices": {
+              "Steam": "$19.99",
+              "Ubisoft Store": "$14.99"
+            },
+            "cover_image": "https://example.com/acblackflag.jpg",
+            "average_playtime": "20-25 hours",
+            "platforms": ["PC", "PS3", "PS4", "Xbox 360", "Xbox One", "Wii U"],
+            "release_date": "2013-10-29",
+            "reviews": {
+              "IGN": "8.5/10",
+              "Vandal": "9.0/10",
+              "Metacritic": "88/100"
+            }
+          },
+          {
+            "name": "Alan Wake",
+            "developer": "Remedy Entertainment",
+            "publisher": "Microsoft Game Studios",
+            "description": "Step into the shoes of a troubled writer as he unravels a mystery shrouded in darkness in this psychological thriller.",
+            "tutorial_links": ["https://www.youtube.com/watch?v=xgdhI-pT74I"],
+            "trailer_preview": "https://www.youtube.com/watch?v=xgdhI-pT74I",
+            "prices": {
+              "Steam": "$14.99",
+              "Epic Games Store": "$14.99"
+            },
+            "cover_image": "https://example.com/alanwake.jpg",
+            "average_playtime": "11 hours",
+            "platforms": ["PC", "Xbox 360"],
+            "release_date": "2010-05-14",
+            "reviews": {
+              "IGN": "9.0/10",
+              "Vandal": "8.8/10",
+              "Metacritic": "83/100"
+            }
+          }
+        ]
+      },
+      {
+        "category": "Shooters",
+        "games": [
+          {
+            "name": "Call of Duty: Black Ops 3",
+            "developer": "Treyarch",
+            "publisher": "Activision",
+            "description": "A futuristic first-person shooter with a gripping campaign, competitive multiplayer, and an extensive Zombies mode.",
+            "tutorial_links": ["https://www.youtube.com/watch?v=Z_mDdrHcAr4"],
+            "trailer_preview": "https://www.youtube.com/watch?v=Z_mDdrHcAr4",
+            "prices": {
+              "Steam": "$59.99",
+              "PlayStation Store": "$39.99"
+            },
+            "cover_image": "https://example.com/blackops3.jpg",
+            "average_playtime": "12-15 hours",
+            "platforms": ["PC", "PS4", "Xbox One"],
+            "release_date": "2015-11-06",
+            "reviews": {
+              "IGN": "9.2/10",
+              "Vandal": "8.9/10",
+              "Metacritic": "81/100"
+            }
+          },
+          {
+            "name": "Call of Duty: Black Ops 2",
+            "developer": "Treyarch",
+            "publisher": "Activision",
+            "description": "A groundbreaking Call of Duty game featuring branching storylines, futuristic weapons, and intense multiplayer modes.",
+            "tutorial_links": ["https://www.youtube.com/watch?v=x3tedlWs1XY"],
+            "trailer_preview": "https://www.youtube.com/watch?v=x3tedlWs1XY",
+            "prices": {
+              "Steam": "$59.99",
+              "Xbox Store": "$49.99"
+            },
+            "cover_image": "https://example.com/blackops2.jpg",
+            "average_playtime": "10-12 hours",
+            "platforms": ["PC", "PS3", "Xbox 360"],
+            "release_date": "2012-11-12",
+            "reviews": {
+              "IGN": "8.5/10",
+              "Vandal": "8.7/10",
+              "Metacritic": "83/100"
+            }
+          },
+          {
+            "name": "Call of Duty: Black Ops",
+            "developer": "Treyarch",
+            "publisher": "Activision",
+            "description": "A gritty, Cold War-era shooter with a captivating campaign, beloved multiplayer, and the start of the Zombies phenomenon.",
+            "tutorial_links": ["https://www.youtube.com/watch?v=OPTOVQFRggI"],
+            "trailer_preview": "https://www.youtube.com/watch?v=OPTOVQFRggI",
+            "prices": {
+              "Steam": "$39.99",
+              "PlayStation Store": "$29.99"
+            },
+            "cover_image": "https://example.com/blackops1.jpg",
+            "average_playtime": "7-10 hours",
+            "platforms": ["PC", "PS3", "Xbox 360"],
+            "release_date": "2010-11-09",
+            "reviews": {
+              "IGN": "9.0/10",
+              "Vandal": "9.2/10",
+              "Metacritic": "81/100"
+            }
+          },
+          {
+            "name": "XDefiant",
+            "developer": "Ubisoft San Francisco",
+            "publisher": "Ubisoft",
+            "description": "A free-to-play arena shooter combining fast-paced gunplay with faction-based abilities inspired by Ubisoft franchises.",
+            "tutorial_links": ["https://www.youtube.com/watch?v=4vIGEWyO2sM"],
+            "trailer_preview": "https://www.youtube.com/watch?v=4vIGEWyO2sM",
+            "prices": {
+              "Ubisoft Store": "Free-to-play"
+            },
+            "cover_image": "https://example.com/xdefiant.jpg",
+            "average_playtime": "Varies",
+            "platforms": ["PC", "PS4", "PS5", "Xbox One", "Xbox Series X|S"],
+            "release_date": "2024-08-15",
+            "reviews": {
+              "IGN": "7.8/10",
+              "Vandal": "8.0/10",
+              "Metacritic": "77/100"
+            }
+          },
+          {
+            "name": "Halo Infinite",
+            "developer": "343 Industries",
+            "publisher": "Xbox Game Studios",
+            "description": "Step into the boots of Master Chief and take on a new enemy in this expansive and visually stunning sci-fi shooter.",
+            "tutorial_links": ["https://www.youtube.com/watch?v=PyMlV5_HRWk"],
+            "trailer_preview": "https://www.youtube.com/watch?v=PyMlV5_HRWk",
+            "prices": {
+              "Steam": "$59.99",
+              "Xbox Store": "Included with Game Pass"
+            },
+            "cover_image": "https://example.com/haloinfinite.jpg",
+            "average_playtime": "10-15 hours",
+            "platforms": ["PC", "Xbox One", "Xbox Series X|S"],
+            "release_date": "2021-12-08",
+            "reviews": {
+              "IGN": "9.0/10",
+              "Vandal": "9.2/10",
+              "Metacritic": "80/100"
+            }
+          }
+        ]
+      }      
+    ]
+  }
+  
