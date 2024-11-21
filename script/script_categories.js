@@ -6,6 +6,16 @@ const sportsContainer = document.getElementById('sports-container');
 const openWorldContainer = document.getElementById('openworld-container');
 const storyContainer = document.getElementById('story-container');
 const shootersContainer = document.getElementById('shooters-container');
+// Seleccionar el botón de Log In por su ID
+const loginButton = document.getElementById('login-btn'); 
+const singupButton = document.getElementById('signup-btn');
+
+loginButton.addEventListener('click', () => {
+    window.location.href = 'login.html';
+});
+singupButton.addEventListener('click', () => {
+    window.location.href = 'signup.html';
+});
 
 // Función principal para cargar los juegos
 data.categories.forEach(category => {
@@ -51,16 +61,3 @@ function createGameCard(game) {
     return card;
 }
 
-// Seleccionar el botón de Log In por su ID
-const loginButton = document.getElementById('login-btn');
-const singupButton = document.getElementById('signup-btn');
-
-// Agregar un evento de clic al botón
-loginButton.addEventListener('click', () => {
-    // Redirigir a la ruta /html/login.html
-    window.location.href = 'login.html';
-});
-singupButton.addEventListener('click', () => {
-    // Redirigir a la ruta /html/signup.html
-    window.location.href = 'signup.html';
-});

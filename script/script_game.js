@@ -1,3 +1,14 @@
+// Seleccionar el botón de Log In por su ID
+const loginButton = document.getElementById('login-btn');
+const singupButton = document.getElementById('signup-btn');
+
+loginButton.addEventListener('click', () => {
+    window.location.href = '/html/login.html';
+});
+singupButton.addEventListener('click', () => {
+    window.location.href = '/html/signup.html';
+});
+
 // Obtener datos del juego desde localStorage
 const game = JSON.parse(localStorage.getItem('selectedGame'));
 
@@ -16,30 +27,16 @@ if (!game) {
     document.getElementById('game-release').textContent = game.release_date;
     document.getElementById('game-platforms').textContent = game.platforms.join(', ');
     document.getElementById('game-playtime').textContent = `${game.average_playtime} hours`;
-    document.getElementById('opinion-ign').textContent = game.opinions.IGN;
-    document.getElementById('opinion-vandal').textContent = game.opinions.Vandal;
-    document.getElementById('opinion-metacritic').textContent = game.opinions.Metacritic;
+    document.getElementById('opinion-ign').textContent = game.reviews.IGN;
+    document.getElementById('opinion-vandal').textContent = game.reviews.Vandal;
+    document.getElementById('opinion-metacritic').textContent = game.reviews.Metacritic;
 
     // Precios
     const pricesContainer = document.getElementById('game-prices');
     pricesContainer.innerHTML = '<h3>Prices:</h3>';
     for (const [store, price] of Object.entries(game.prices)) {
         const priceElement = document.createElement('p');
-        priceElement.textContent = `${store}: $${price}`;
+        priceElement.textContent = `${store}: ${price}`;
         pricesContainer.appendChild(priceElement);
     }
 }
-
-// Seleccionar el botón de Log In por su ID
-const loginButton = document.getElementById('login-btn');
-const singupButton = document.getElementById('signup-btn');
-
-// Agregar un evento de clic al botón
-loginButton.addEventListener('click', () => {
-    // Redirigir a la ruta /html/login.html
-    window.location.href = '/html/login.html';
-});
-singupButton.addEventListener('click', () => {
-    // Redirigir a la ruta /html/signup.html
-    window.location.href = '/html/signup.html';
-});
