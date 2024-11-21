@@ -14,7 +14,7 @@
               "Steam": "$59.99",
               "Microsoft Store": "$59.99"
             },
-            "cover_image": "https://example.com/forza4.jpg",
+            "cover_image": "https://howlongtobeat.com/games/55661_Forza_Horizon_4.jpg?width=250",
             "average_playtime": "30 hours",
             "platforms": ["PC", "Xbox One"],
             "release_date": "2018-10-02",
@@ -35,7 +35,7 @@
               "Steam": "$59.99",
               "Microsoft Store": "$59.99"
             },
-            "cover_image": "https://example.com/forza5.jpg",
+            "cover_image": "https://howlongtobeat.com/games/93948_Forza_Horizon_5.jpg?width=250",
             "average_playtime": "35 hours",
             "platforms": ["PC", "Xbox Series X|S"],
             "release_date": "2021-11-09",
@@ -55,7 +55,7 @@
             "prices": {
               "Nintendo eShop": "$59.99"
             },
-            "cover_image": "https://example.com/mariokart8.jpg",
+            "cover_image": "https://howlongtobeat.com/games/43480_Mario_Kart_8_Deluxe.png?width=250",
             "average_playtime": "60 hours",
             "platforms": ["Nintendo Switch"],
             "release_date": "2017-04-28",
@@ -76,7 +76,7 @@
               "Steam": "$19.99",
               "Origin": "$19.99"
             },
-            "cover_image": "https://example.com/nfsmw.jpg",
+            "cover_image": "https://howlongtobeat.com/games/6478_Need_for_Speed_Most_Wanted.jpg?width=250",
             "average_playtime": "20 hours",
             "platforms": ["PC", "PS3", "Xbox 360"],
             "release_date": "2012-10-30",
@@ -96,7 +96,7 @@
             "prices": {
               "PlayStation Store": "$69.99"
             },
-            "cover_image": "https://example.com/granturismo7.jpg",
+            "cover_image": "https://howlongtobeat.com/games/81847_Gran_Turismo_7.jpg?width=250",
             "average_playtime": "40 hours",
             "platforms": ["PS4", "PS5"],
             "release_date": "2022-03-04",
@@ -122,7 +122,7 @@
               "Amazon": "$29.99",
               "eBay": "$19.99"
             },
-            "cover_image": "https://example.com/wiisports.jpg",
+            "cover_image": "https://howlongtobeat.com/games/11159_Wii_Sports.png?width=250",
             "average_playtime": "50 hours",
             "platforms": ["Wii"],
             "release_date": "2006-11-19",
@@ -143,7 +143,7 @@
               "PlayStation Store": "$59.99",
               "Xbox Store": "$59.99"
             },
-            "cover_image": "https://example.com/ufc4.jpg",
+            "cover_image": "https://howlongtobeat.com/games/81845_EA_Sports_UFC_4.jpg?width=250",
             "average_playtime": "25 hours",
             "platforms": ["PS4", "PS5", "Xbox One", "Xbox Series X|S"],
             "release_date": "2020-08-14",
@@ -164,7 +164,7 @@
               "Steam": "$69.99",
               "Origin": "$69.99"
             },
-            "cover_image": "https://example.com/fifa23.jpg",
+            "cover_image": "https://howlongtobeat.com/games/110878_FIFA_23.jpg?width=250",
             "average_playtime": "50+ hours",
             "platforms": ["PC", "PS4", "PS5", "Xbox One", "Xbox Series X|S"],
             "release_date": "2022-09-30",
@@ -185,7 +185,7 @@
               "Steam": "$59.99",
               "PlayStation Store": "$59.99"
             },
-            "cover_image": "https://example.com/nba2k23.jpg",
+            "cover_image": "https://howlongtobeat.com/games/110880_NBA_2K23.jpg?width=250",
             "average_playtime": "40 hours",
             "platforms": ["PC", "PS4", "PS5", "Xbox One", "Xbox Series X|S"],
             "release_date": "2022-09-08",
@@ -206,7 +206,7 @@
               "Steam": "$49.99",
               "Amazon": "$44.99"
             },
-            "cover_image": "https://example.com/rugby22.jpg",
+            "cover_image": "https://howlongtobeat.com/games/103437_Rugby_22.jpg?width=250",
             "average_playtime": "30 hours",
             "platforms": ["PC", "PS4", "PS5", "Xbox One", "Xbox Series X|S"],
             "release_date": "2022-01-27",
@@ -253,7 +253,7 @@
               "Steam": "$49.99",
               "Humble Bundle": "$39.99"
             },
-            "cover_image": "https://example.com/darksouls3.jpg",
+            "cover_image": "https://howlongtobeat.com/games/Dark_souls_3_cover_art.jpg?width=250",
             "average_playtime": "50 hours",
             "platforms": ["PC", "PS4", "Xbox One"],
             "release_date": "2016-04-12",
@@ -274,7 +274,7 @@
               "Steam": "$39.99",
               "Humble Bundle": "$34.99"
             },
-            "cover_image": "https://example.com/darksouls2.jpg",
+            "cover_image": "https://howlongtobeat.com/games/Dark_Souls_II_cover.jpg?width=250",
             "average_playtime": "45 hours",
             "platforms": ["PC", "PS3", "Xbox 360"],
             "release_date": "2014-03-11",
@@ -295,7 +295,7 @@
               "Steam": "$29.99",
               "Epic Games Store": "$29.99"
             },
-            "cover_image": "https://example.com/gta5.jpg",
+            "cover_image": "https://howlongtobeat.com/games/4064_Grand_Theft_Auto_V.jpg?width=250",
             "average_playtime": "35 hours (Main Story)",
             "platforms": ["PC", "PS3", "PS4", "PS5", "Xbox 360", "Xbox One", "Xbox Series X|S"],
             "release_date": "2013-09-17",
@@ -316,7 +316,7 @@
               "Steam": "$19.99",
               "Bethesda Store": "$19.99"
             },
-            "cover_image": "https://example.com/fallout4.jpg",
+            "cover_image": "https://howlongtobeat.com/games/Fallout_4.jpg?width=250",
             "average_playtime": "60+ hours",
             "platforms": ["PC", "PS4", "Xbox One"],
             "release_date": "2015-11-10",
@@ -342,7 +342,7 @@
               "Steam": "$39.99",
               "PlayStation Store": "$39.99"
             },
-            "cover_image": "https://example.com/ittakestwo.jpg",
+            "cover_image": "https://howlongtobeat.com/games/80199_It_Takes_Two.jpg?width=250",
             "average_playtime": "10-12 hours",
             "platforms": ["PC", "PS4", "PS5", "Xbox One", "Xbox Series X|S"],
             "release_date": "2021-03-26",
@@ -363,7 +363,7 @@
               "PlayStation Store": "$19.99",
               "Steam": "$49.99"
             },
-            "cover_image": "https://example.com/godofwar.jpg",
+            "cover_image": "https://howlongtobeat.com/games/38050_God_of_War.jpg?width=250",
             "average_playtime": "20-25 hours",
             "platforms": ["PC", "PS4", "PS5"],
             "release_date": "2018-04-20",
@@ -384,7 +384,7 @@
               "Steam": "$39.99",
               "GOG": "$29.99"
             },
-            "cover_image": "https://example.com/witcher3.jpg",
+            "cover_image": "https://howlongtobeat.com/games/10270_The_Witcher_3_Wild_Hunt.jpg?width=250",
             "average_playtime": "50+ hours",
             "platforms": ["PC", "PS4", "PS5", "Xbox One", "Nintendo Switch"],
             "release_date": "2015-05-19",
@@ -405,7 +405,7 @@
               "Steam": "$19.99",
               "Ubisoft Store": "$14.99"
             },
-            "cover_image": "https://example.com/acblackflag.jpg",
+            "cover_image": "https://howlongtobeat.com/games/Assassins_Creed_IV_-_Black_Flag_cover.jpg?width=250",
             "average_playtime": "20-25 hours",
             "platforms": ["PC", "PS3", "PS4", "Xbox 360", "Xbox One", "Wii U"],
             "release_date": "2013-10-29",
@@ -426,7 +426,7 @@
               "Steam": "$14.99",
               "Epic Games Store": "$14.99"
             },
-            "cover_image": "https://example.com/alanwake.jpg",
+            "cover_image": "https://howlongtobeat.com/games/Alan-wake-0.jpg?width=250",
             "average_playtime": "11 hours",
             "platforms": ["PC", "Xbox 360"],
             "release_date": "2010-05-14",
@@ -452,7 +452,7 @@
               "Steam": "$59.99",
               "PlayStation Store": "$39.99"
             },
-            "cover_image": "https://example.com/blackops3.jpg",
+            "cover_image": "https://howlongtobeat.com/games/COD_Black_Ops_3.jpg?width=250",
             "average_playtime": "12-15 hours",
             "platforms": ["PC", "PS4", "Xbox One"],
             "release_date": "2015-11-06",
@@ -473,7 +473,7 @@
               "Steam": "$59.99",
               "Xbox Store": "$49.99"
             },
-            "cover_image": "https://example.com/blackops2.jpg",
+            "cover_image": "https://howlongtobeat.com/games/275px-Call_of_Duty_Black_Ops_II_Game_Cover.png?width=250",
             "average_playtime": "10-12 hours",
             "platforms": ["PC", "PS3", "Xbox 360"],
             "release_date": "2012-11-12",
@@ -494,7 +494,7 @@
               "Steam": "$39.99",
               "PlayStation Store": "$29.99"
             },
-            "cover_image": "https://example.com/blackops1.jpg",
+            "cover_image": "https://howlongtobeat.com/games/1471_Call_of_Duty_Black_Ops.jpg?width=250",
             "average_playtime": "7-10 hours",
             "platforms": ["PC", "PS3", "Xbox 360"],
             "release_date": "2010-11-09",
@@ -514,7 +514,7 @@
             "prices": {
               "Ubisoft Store": "Free-to-play"
             },
-            "cover_image": "https://example.com/xdefiant.jpg",
+            "cover_image": "https://howlongtobeat.com/games/127243_XDefiant.jpg?width=250",
             "average_playtime": "Varies",
             "platforms": ["PC", "PS4", "PS5", "Xbox One", "Xbox Series X|S"],
             "release_date": "2024-08-15",
@@ -535,7 +535,7 @@
               "Steam": "$59.99",
               "Xbox Store": "Included with Game Pass"
             },
-            "cover_image": "https://example.com/haloinfinite.jpg",
+            "cover_image": "https://howlongtobeat.com/games/57454_Halo_Infinite.jpg?width=250",
             "average_playtime": "10-15 hours",
             "platforms": ["PC", "Xbox One", "Xbox Series X|S"],
             "release_date": "2021-12-08",

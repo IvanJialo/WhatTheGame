@@ -1,4 +1,4 @@
-
+/* Global Styles */
 * {
     margin: 0;
     padding: 0;
@@ -7,8 +7,11 @@
 
 body {
     font-family: 'Noto Serif Old Uyghur', serif;
-    background-color: #FFFFFF;
-    color: #000000;
+    background-image: url("../img/space_background.gif");
+    background-size: contain;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
 }
 
 header {
@@ -60,61 +63,6 @@ header {
     opacity: 0.9;
 }
 
-main {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 80vh;
-    background-image: url("../img/background_categories1.gif");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    overflow: hidden;
-}
-
-.main-overlay {
-    position: absolute;
-    width: 90%; /* Ajusta el ancho para el efecto deseado */
-    height: 90%; /* Ajusta la altura para cubrir las secciones de categorías */
-    background-color: rgba(0, 0, 0, 0.5); /* Caja negra semi-transparente */
-    border-radius: 10px; /* Bordes redondeados */
-    padding: 20px; /* Espacio interno para las secciones */
-    overflow-y: auto; /* Permite desplazamiento si el contenido es largo */
-    z-index: 1;
-}
-
-/* Estilos para las secciones dentro de la caja */
-.category-section {
-    margin-bottom: 20px;
-}
-
-.category-section h2 {
-    color: #DCD0FF; /* Color lavanda claro para los títulos */
-    text-align: center;
-    margin-bottom: 10px;
-}
-
-.games-container {
-    display: flex;
-    justify-content: space-around;
-    gap: 10px;
-}
-
-@media (max-width: 1024px) {
-    main {
-        background-position: center top; 
-    }
-}
-
-@media (max-width: 768px) {
-    main {
-        background-size: contain; 
-        background-position: top; 
-    }
-}
-
 nav {
     display: flex;
 }
@@ -140,37 +88,113 @@ nav {
     } */
 }
 
-.games-container {
+main {
+    padding: 20px;
     display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
     justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
 
-.game-card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 150px;
+.game-details {
+    max-width: 900px;
     background-color: rgba(0, 0, 0, 0.8);
-    border-radius: 8px;
-    padding: 10px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
-    color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.8);
     text-align: center;
 }
 
-.game-card img {
+.game-details img {
     width: 100%;
-    height: auto;
-    border-radius: 4px;
+    max-width: 500px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.game-details h1 {
+    font-size: 2.5rem;
+    color: #e91e63; /* Magenta destacado */
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.game-details p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.game-details ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.game-details ul li {
+    text-align: left;
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+}
+
+.game-details ul li strong {
+    color: #e91e63;
+}
+
+/* Prices Section */
+#game-prices {
+    margin-top: 30px;
+    text-align: left;
+}
+
+#game-prices h3 {
+    font-size: 1.5rem;
+    color: #e91e63;
     margin-bottom: 10px;
 }
 
-.game-card h3 {
-    font-size: 14px;
-    font-weight: bold;
-    margin: 0;
+#game-prices p {
+    margin: 5px 0;
+    font-size: 1.1rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .game-details {
+        padding: 20px;
+    }
+
+    .game-details img {
+        max-width: 100%;
+    }
+
+    .game-details h1 {
+        font-size: 2rem;
+    }
+
+    .game-details p {
+        font-size: 1rem;
+    }
+
+    #game-prices h3 {
+        font-size: 1.3rem;
+    }
+
+    #game-prices p {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .game-details h1 {
+        font-size: 1.8rem;
+    }
+
+    .game-details p {
+        font-size: 0.9rem;
+    }
 }
 
 

@@ -3,12 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Categories - WhaTheGame</title>
-    <link rel="stylesheet" href="../styles/styles_categories.css">
-    <script defer src="../script/script_categories.js" type="module"></script>
+    <title>Game Details</title>
+    <link rel="stylesheet" href="../styles/styles_game.css">
+    <script defer src="../script/script_game.js"></script>
 </head>
 <body>
-    
     <header>
         <div class="auth-buttons">
             <button class="login-btn" id="login-btn">Login</button>
@@ -26,37 +25,28 @@
             </ul>
         </nav>
     </header>
-
     <main>
-        <div class="main-overlay">
-            <section class="category-section" id="racing">
-                <h2>Racing</h2>
-                <div class="games-container" id="racing-container"></div>
-            </section>
-    
-            <section class="category-section" id="sports">
-                <h2>Sports</h2>
-                <div class="games-container" id="sports-container"></div>
-            </section>
-    
-            <section class="category-section" id="open-world">
-                <h2>Open World</h2>
-                <div class="games-container" id="openworld-container"></div>
-            </section>
-    
-            <section class="category-section" id="story">
-                <h2>Story</h2>
-                <div class="games-container" id="story-container"></div>
-            </section>
-    
-            <section class="category-section" id="shooters">
-                <h2>Shooters</h2>
-                <div class="games-container" id="shooters-container"></div>
-            </section>
+        <div class="game-details">
+            <img id="game-cover" alt="Game Cover">
+            <h1 id="game-title"></h1>
+            <p id="game-description"></p>
+            <ul id="game-info">
+                <li><strong>Developer:</strong> <span id="game-developer"></span></li>
+                <li><strong>Publisher:</strong> <span id="game-publisher"></span></li>
+                <li><strong>Release Date:</strong> <span id="game-release"></span></li>
+                <li><strong>Platforms:</strong> <span id="game-platforms"></span></li>
+                <li><strong>Average Playtime:</strong> <span id="game-playtime"></span></li>
+                <li><strong>Opinions:</strong>
+                    <ul>
+                        <li>IGN: <span id="opinion-ign"></span></li>
+                        <li>Vandal: <span id="opinion-vandal"></span></li>
+                        <li>Metacritic: <span id="opinion-metacritic"></span></li>
+                    </ul>
+                </li>
+            </ul>
+            <div id="game-prices"></div>
         </div>
     </main>
-    
-
     <footer>
         <div class="footer-container">
             <div class="footer-logo">

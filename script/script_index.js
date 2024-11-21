@@ -27,10 +27,10 @@ const singupButton = document.getElementById('signup-btn');
 // Agregar un evento de clic al botón
 loginButton.addEventListener('click', () => {
     // Redirigir a la ruta /html/login.html
-    window.location.href = '/html/login.html';
+    window.location.href = 'login.html';
 });
 singupButton.addEventListener('click', () => {
     // Redirigir a la ruta /html/signup.html
-    window.location.href = '/html/signup.html';
+    window.location.href = 'signup.html';
 });
 
