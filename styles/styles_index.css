@@ -15,7 +15,7 @@ header {
     flex-direction: column;
     align-items: center;
     background-color: #000000;
-    padding: 20px 0;
+    padding: 5px 0;
     /* filter: drop-shadow(100% 100% 100% black); */
 }
 
@@ -85,8 +85,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 80vh;
-
+    height: 69.6vh;
     background-size: contain;
     background-position: center;
     background-repeat: repeat-x;
@@ -128,7 +127,7 @@ footer {
     align-items: center;
     background-color: #000000;
     color: #DCD0FF;
-    padding: 20px;
+    padding: 5px;
 }
 
 .footer-container {
