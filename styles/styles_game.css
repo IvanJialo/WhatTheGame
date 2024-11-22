@@ -18,7 +18,6 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #000000;
     padding: 20px 0;
     position: relative;
 }
@@ -77,15 +76,12 @@ nav {
     text-decoration: none;
     padding: 4px 5px;
     font-size: 18px;
-    color: white;
-    /* color: black; */
-    /* background-color: grey;
-    border-radius: 5px;
-    transition: background-color ease 0.3s; */
+    color: white; 
 
-  /*   &:hover {
-        background-color: rgb(213, 213, 213);
-    } */
+    &:hover {
+        color: #DCD0FF;
+        transition: color ease 0.4s;
+    } 
 }
 
 main {
@@ -114,7 +110,7 @@ main {
 
 .game-details h1 {
     font-size: 2.5rem;
-    color: #e91e63; /* Magenta destacado */
+    color: #DCD0FF; /* Magenta destacado */
     margin-bottom: 10px;
     text-transform: uppercase;
 }
@@ -140,7 +136,7 @@ main {
 }
 
 .game-details ul li strong {
-    color: #e91e63;
+    color: #DCD0FF;
 }
 
 /* Prices Section */
@@ -151,7 +147,7 @@ main {
 
 #game-prices h3 {
     font-size: 1.5rem;
-    color: #e91e63;
+    color: #DCD0FF;
     margin-bottom: 10px;
 }
 
@@ -197,13 +193,11 @@ main {
     }
 }
 
-
 footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #000000;
-    color: #FFFFFF;
+    color: #DCD0FF;
     padding: 20px;
 }
 
@@ -227,9 +221,14 @@ footer {
 .footer-info ul li a {
     text-decoration: none;
     color: #FFFFFF;
+     &:hover {
+        color: #DCD0FF;
+        transition: color ease 0.4s;
+    } 
 }
 
 .footer-social h4, 
 .footer-info h4 {
     margin-bottom: 10px;
+    color: #DCD0FF;
 }
