@@ -79,7 +79,10 @@ main {
     width: 90%;
     background-color: rgba(0, 0, 0, 0.5); /* Caja negra semi-transparente */
     border-radius: 10px; /* Bordes redondeados */
+    /* box-shadow: 3px 10px 50px lightcoral,
+    10px 10px 50px blue; */
     padding: 20px; /* Espacio interno para las secciones */
+    backdrop-filter: blur(1.5rem);
 }
 
 /* Estilos para las secciones dentro de la caja */

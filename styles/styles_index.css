@@ -16,6 +16,7 @@ header {
     align-items: center;
     background-color: #000000;
     padding: 20px 0;
+    /* filter: drop-shadow(100% 100% 100% black); */
 }
 
 .logo {

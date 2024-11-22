@@ -8,6 +8,7 @@
 body {
     font-family: 'Noto Serif Old Uyghur', serif;
     background-image: url("../img/space_background.gif");
+    backdrop-filter: blur(3.5px);
     background-size: contain;
     background-position: center;
     background-attachment: fixed;
@@ -106,6 +107,7 @@ main {
     max-width: 500px;
     border-radius: 10px;
     margin-bottom: 20px;
+    /* filter: brightness(0.8); */
 }
 
 .game-details h1 {
