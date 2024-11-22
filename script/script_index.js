@@ -7,14 +7,17 @@ const backgrounds = [
 
 // Selecciona el main
 const main = document.querySelector("main");
-// Seleccionar el botón de Log In por su ID
-const loginButton = document.getElementById('login-btn');
-const singupButton = document.getElementById('signup-btn');
 
+// Seleccionar los botones de Log In y Sign Up por sus IDs
+const loginButton = document.getElementById('login-btn');
+const signupButton = document.getElementById('signup-btn');
+
+// Redirección al hacer clic en los botones
 loginButton.addEventListener('click', () => {
     window.location.href = '/html/login.html';
 });
-singupButton.addEventListener('click', () => {
+
+signupButton.addEventListener('click', () => {
     window.location.href = '/html/signup.html';
 });
 
@@ -30,5 +33,14 @@ function setRandomBackground() {
 // Ejecuta la función cuando se carga la página
 window.addEventListener("load", setRandomBackground);
 
+const searchInput = document.querySelector('.search-input');
 
-
+searchInput.addEventListener('keydown', (event) => {
+    console.log("Tecla presionada: ", event.key);  // Para depuración
+    if (event.key === 'Enter') {  // Detectar si se presiona Enter
+        const query = searchInput.value.trim();  // Obtener el texto ingresado y eliminar espacios
+        if (query) {  // Si no está vacío
+            window.location.href = `/html/game.html?title=${encodeURIComponent(query)}`;
+        }
+    }
+});
