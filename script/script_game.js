@@ -39,4 +39,6 @@ if (!game) {
         priceElement.textContent = `${store}: ${price}`;
         pricesContainer.appendChild(priceElement);
     }
+
+    localStorage.removeItem('selectedGame');
 }

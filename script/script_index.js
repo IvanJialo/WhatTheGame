@@ -1,3 +1,5 @@
+import data from '../JSON/games.json' with { type: 'json' }; // Importar el archivo JSON
+
 // URLs de los diferentes GIFs
 const backgrounds = [
     "../img/background1.gif",
@@ -40,7 +42,8 @@ searchInput.addEventListener('keydown', (event) => {
     if (event.key === 'Enter') {  // Detectar si se presiona Enter
         const query = searchInput.value.trim();  // Obtener el texto ingresado y eliminar espacios
         if (query) {  // Si no está vacío
-            window.location.href = `/html/game.html?title=${encodeURIComponent(query)}`;
+            localStorage.setItem('selectedGame', query); 
+            window.location.href = `/html/game.html`;
         }
     }
 });
